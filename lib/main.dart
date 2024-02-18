@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
     '10',
     '11',
     '12',
+    '13',
   ];
   var color = [
     const Color(0xFF0079FF),
@@ -54,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
     const Color(0xFFFF8080),
     const Color(0xFFFFA447),
     const Color(0xFF637A9F),
+    const Color(0xFF83C0C1),
   ];
 
   @override
@@ -236,168 +238,195 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),*/
-          GridView.extent(
-        maxCrossAxisExtent: 100,
-        mainAxisSpacing: 10,
-        crossAxisSpacing: 10,
-            children: [
-              Container(
-                color: color[0],
-                alignment: Alignment.center,
-                child: Text(
-                  number[0],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+          /*Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: GridView.extent(
+                    maxCrossAxisExtent: 100,
+                    mainAxisSpacing: 10,
+                    crossAxisSpacing: 10,
+              children: [
+                Container(
+                  color: color[0],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[0],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[1],
-                alignment: Alignment.center,
-                child: Text(
-                  number[1],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[1],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[1],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[2],
-                alignment: Alignment.center,
-                child: Text(
-                  number[2],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[2],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[2],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[3],
-                alignment: Alignment.center,
-                child: Text(
-                  number[3],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[3],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[3],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[4],
-                alignment: Alignment.center,
-                child: Text(
-                  number[4],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[4],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[4],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[5],
-                alignment: Alignment.center,
-                child: Text(
-                  number[5],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[5],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[5],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[6],
-                alignment: Alignment.center,
-                child: Text(
-                  number[6],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[6],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[6],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[7],
-                alignment: Alignment.center,
-                child: Text(
-                  number[7],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[7],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[7],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[8],
-                alignment: Alignment.center,
-                child: Text(
-                  number[8],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[8],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[8],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[9],
-                alignment: Alignment.center,
-                child: Text(
-                  number[9],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[9],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[9],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[10],
-                alignment: Alignment.center,
-                child: Text(
-                  number[10],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[10],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[10],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
-              ),
-              Container(
-                color: color[11],
-                alignment: Alignment.center,
-                child: Text(
-                  number[11],
-                  textAlign: TextAlign.center,
-                  style: const TextStyle(
-                    fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    color: Colors.white,
+                Container(
+                  color: color[11],
+                  alignment: Alignment.center,
+                  child: Text(
+                    number[11],
+                    textAlign: TextAlign.center,
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Colors.white,
+                    ),
                   ),
                 ),
+              ],
+                  ),
+          ),*/
+          GridView.builder(
+        gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+          //crossAxisCount: 3,
+          maxCrossAxisExtent: 200,
+          crossAxisSpacing: 10,
+          mainAxisSpacing: 10,
+        ),
+        itemBuilder: (context, index) {
+          return Container(
+            color: color[index],
+            alignment: Alignment.center,
+            child: Text(
+              number[index],
+              textAlign: TextAlign.center,
+              style: const TextStyle(
+                fontWeight: FontWeight.bold,
+                fontSize: 20,
+                color: Colors.white,
               ),
-            ],
+            ),
+          );
+        },
+            itemCount: number.length,
       ),
     );
   }
